@@ -55,3 +55,6 @@ df3.boxplot()
 ![img](scr4.png)
 ![img](scr5.png)
 ![img](scr6.png)
+
+# Result:
+Thus the outliers are detected and removed in the given file and the final data set is saved into the file.
