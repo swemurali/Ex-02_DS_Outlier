@@ -24,7 +24,7 @@ Use quantile formulas and boxplot.
 End the program.
 
 # Program :
-
+```
 import pandas as pd
 df = pd.read_csv("WEIGHT.csv")
 df
@@ -47,7 +47,7 @@ IQR = q3-q1
 df3 = df2[((df2>=q1-1.5*IQR) & (df2>=q1-1.5*IQR)).all(axis =1)]
 df3
 df3.boxplot()
-
+```
 # Output
 ![img](scr1.png)
 ![img](scr2.png)
